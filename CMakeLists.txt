@@ -16,6 +16,7 @@ set(SOURCE_FILES
     G.cpp
     H.cpp
     I.cpp
+    I2.cpp
     J.cpp
     K.cpp
     L.cpp
