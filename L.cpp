@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <unordered_set>
-#include <utility>
 
 std::string solution(std::string r, std::string s) {
     std::string out;

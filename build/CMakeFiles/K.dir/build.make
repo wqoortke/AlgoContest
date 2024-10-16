@@ -73,15 +73,15 @@ CMakeFiles/K.dir/K.cpp.o: CMakeFiles/K.dir/flags.make
 CMakeFiles/K.dir/K.cpp.o: /Users/evgenyi/code/AlgoContest/K.cpp
 CMakeFiles/K.dir/K.cpp.o: CMakeFiles/K.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/evgenyi/code/AlgoContest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/K.dir/K.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/K.dir/K.cpp.o -MF CMakeFiles/K.dir/K.cpp.o.d -o CMakeFiles/K.dir/K.cpp.o -c /Users/evgenyi/code/AlgoContest/K.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/K.dir/K.cpp.o -MF CMakeFiles/K.dir/K.cpp.o.d -o CMakeFiles/K.dir/K.cpp.o -c /Users/evgenyi/code/AlgoContest/K.cpp
 
 CMakeFiles/K.dir/K.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/K.dir/K.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evgenyi/code/AlgoContest/K.cpp > CMakeFiles/K.dir/K.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evgenyi/code/AlgoContest/K.cpp > CMakeFiles/K.dir/K.cpp.i
 
 CMakeFiles/K.dir/K.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/K.dir/K.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evgenyi/code/AlgoContest/K.cpp -o CMakeFiles/K.dir/K.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evgenyi/code/AlgoContest/K.cpp -o CMakeFiles/K.dir/K.cpp.s
 
 # Object files for target K
 K_OBJECTS = \

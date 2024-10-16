@@ -73,15 +73,15 @@ CMakeFiles/G.dir/G.cpp.o: CMakeFiles/G.dir/flags.make
 CMakeFiles/G.dir/G.cpp.o: /Users/evgenyi/code/AlgoContest/G.cpp
 CMakeFiles/G.dir/G.cpp.o: CMakeFiles/G.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/evgenyi/code/AlgoContest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/G.dir/G.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/G.dir/G.cpp.o -MF CMakeFiles/G.dir/G.cpp.o.d -o CMakeFiles/G.dir/G.cpp.o -c /Users/evgenyi/code/AlgoContest/G.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/G.dir/G.cpp.o -MF CMakeFiles/G.dir/G.cpp.o.d -o CMakeFiles/G.dir/G.cpp.o -c /Users/evgenyi/code/AlgoContest/G.cpp
 
 CMakeFiles/G.dir/G.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/G.dir/G.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evgenyi/code/AlgoContest/G.cpp > CMakeFiles/G.dir/G.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evgenyi/code/AlgoContest/G.cpp > CMakeFiles/G.dir/G.cpp.i
 
 CMakeFiles/G.dir/G.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/G.dir/G.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evgenyi/code/AlgoContest/G.cpp -o CMakeFiles/G.dir/G.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evgenyi/code/AlgoContest/G.cpp -o CMakeFiles/G.dir/G.cpp.s
 
 # Object files for target G
 G_OBJECTS = \

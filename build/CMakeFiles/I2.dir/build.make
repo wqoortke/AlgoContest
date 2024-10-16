@@ -73,15 +73,15 @@ CMakeFiles/I2.dir/I2.cpp.o: CMakeFiles/I2.dir/flags.make
 CMakeFiles/I2.dir/I2.cpp.o: /Users/evgenyi/code/AlgoContest/I2.cpp
 CMakeFiles/I2.dir/I2.cpp.o: CMakeFiles/I2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/evgenyi/code/AlgoContest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/I2.dir/I2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/I2.dir/I2.cpp.o -MF CMakeFiles/I2.dir/I2.cpp.o.d -o CMakeFiles/I2.dir/I2.cpp.o -c /Users/evgenyi/code/AlgoContest/I2.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/I2.dir/I2.cpp.o -MF CMakeFiles/I2.dir/I2.cpp.o.d -o CMakeFiles/I2.dir/I2.cpp.o -c /Users/evgenyi/code/AlgoContest/I2.cpp
 
 CMakeFiles/I2.dir/I2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/I2.dir/I2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evgenyi/code/AlgoContest/I2.cpp > CMakeFiles/I2.dir/I2.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evgenyi/code/AlgoContest/I2.cpp > CMakeFiles/I2.dir/I2.cpp.i
 
 CMakeFiles/I2.dir/I2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/I2.dir/I2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evgenyi/code/AlgoContest/I2.cpp -o CMakeFiles/I2.dir/I2.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evgenyi/code/AlgoContest/I2.cpp -o CMakeFiles/I2.dir/I2.cpp.s
 
 # Object files for target I2
 I2_OBJECTS = \

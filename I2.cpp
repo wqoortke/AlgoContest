@@ -83,7 +83,6 @@ void solution(int* arr, int length) {
             deleteArr(arr, length);
             int* arr = new int[200000];
             length = 0;
-
         } else {
             int d = in.find_first_of(' ');
             std::string op = in.substr(0, d);

@@ -73,15 +73,15 @@ CMakeFiles/J.dir/J.cpp.o: CMakeFiles/J.dir/flags.make
 CMakeFiles/J.dir/J.cpp.o: /Users/evgenyi/code/AlgoContest/J.cpp
 CMakeFiles/J.dir/J.cpp.o: CMakeFiles/J.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/evgenyi/code/AlgoContest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/J.dir/J.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/J.dir/J.cpp.o -MF CMakeFiles/J.dir/J.cpp.o.d -o CMakeFiles/J.dir/J.cpp.o -c /Users/evgenyi/code/AlgoContest/J.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/J.dir/J.cpp.o -MF CMakeFiles/J.dir/J.cpp.o.d -o CMakeFiles/J.dir/J.cpp.o -c /Users/evgenyi/code/AlgoContest/J.cpp
 
 CMakeFiles/J.dir/J.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/J.dir/J.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evgenyi/code/AlgoContest/J.cpp > CMakeFiles/J.dir/J.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evgenyi/code/AlgoContest/J.cpp > CMakeFiles/J.dir/J.cpp.i
 
 CMakeFiles/J.dir/J.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/J.dir/J.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evgenyi/code/AlgoContest/J.cpp -o CMakeFiles/J.dir/J.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evgenyi/code/AlgoContest/J.cpp -o CMakeFiles/J.dir/J.cpp.s
 
 # Object files for target J
 J_OBJECTS = \

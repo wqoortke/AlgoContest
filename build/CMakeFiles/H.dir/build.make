@@ -73,15 +73,15 @@ CMakeFiles/H.dir/H.cpp.o: CMakeFiles/H.dir/flags.make
 CMakeFiles/H.dir/H.cpp.o: /Users/evgenyi/code/AlgoContest/H.cpp
 CMakeFiles/H.dir/H.cpp.o: CMakeFiles/H.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/evgenyi/code/AlgoContest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/H.dir/H.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/H.dir/H.cpp.o -MF CMakeFiles/H.dir/H.cpp.o.d -o CMakeFiles/H.dir/H.cpp.o -c /Users/evgenyi/code/AlgoContest/H.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/H.dir/H.cpp.o -MF CMakeFiles/H.dir/H.cpp.o.d -o CMakeFiles/H.dir/H.cpp.o -c /Users/evgenyi/code/AlgoContest/H.cpp
 
 CMakeFiles/H.dir/H.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/H.dir/H.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evgenyi/code/AlgoContest/H.cpp > CMakeFiles/H.dir/H.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evgenyi/code/AlgoContest/H.cpp > CMakeFiles/H.dir/H.cpp.i
 
 CMakeFiles/H.dir/H.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/H.dir/H.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evgenyi/code/AlgoContest/H.cpp -o CMakeFiles/H.dir/H.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evgenyi/code/AlgoContest/H.cpp -o CMakeFiles/H.dir/H.cpp.s
 
 # Object files for target H
 H_OBJECTS = \
